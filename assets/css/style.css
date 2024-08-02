@@ -389,9 +389,16 @@ a {
   padding: 96px;
   background: #2e2100;
 }
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
 .feedback-item {
+  width: 100%;
+  flex-shrink: 0;
   display: flex;
 }
+
 .feedback-item .avatar {
   width: 72px;
   height: 72px;
@@ -422,7 +429,7 @@ a {
   border-radius: 50%;
   background: #634700;
 }
-.feedback-item .dot.active{
+.feedback-item .dot.active {
   background: var(--primary-color);
   cursor: default;
 }
