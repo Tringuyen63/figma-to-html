@@ -444,7 +444,7 @@ a {
   font-style: var(--font-heading);
   line-height: 153%; /* 153.846% */
 }
-/* ======================features============================= */
+/* ======================features 1============================= */
 .features {
   margin-top: 135px;
   padding: 65px 0px;
@@ -482,4 +482,20 @@ a {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+/* ======================features 2============================= */
+.features-2nd {
+  /* p65 nên 65+65+70=200 */
+  margin-top: 70px;
+}
+.features-2nd .body {
+  /* đảo chiều */
+  flex-direction: row-reverse;
+}
+.features-2nd .content {
+  width: 49%;
+}
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
 }
